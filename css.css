@@ -108,6 +108,16 @@
     footer p { font-family: 'Oswald', sans-serif; font-weight: 300; line-height: 1.5em; margin-top: 1em; }
     footer p a { color: inherit; }
 
+/* Gallery */
+
+  section.gallery { }
+  section.gallery img { max-width: 800px; width: 90%; }
+  
+  @media screen and (max-width: 400px)
+  {
+    section.gallery img { max-width: 360px; width: 80%; }  
+  }
+
 /* Classes */
 
     .bt { border-top: 9px solid #3F4D1C; }
@@ -124,3 +134,4 @@
         text-decoration: none;
         text-transform: uppercase; 
     }
+
