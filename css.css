@@ -35,6 +35,33 @@
     div.slider img { margin-bottom: 0; width: 100%; }
     div.bx-wrapper, .bx-wrapper { border: 0 !important; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; margin-bottom: 0; }
 
+
+/* Gallery */
+  
+  #gallery 
+  {
+    /* background: yellow; */
+    max-width: 1000px; 
+    margin-inline: auto;
+    text-align: center; 
+    width: 100%; 
+  }
+  
+  div.row { margin-top: 2rem; }
+  div.row h3 { margin-bottom: 1.5rem;}
+  
+  div.pics
+  {
+    /* background: gold; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; 
+    justify-content: center;
+    width: 100%; 
+  }
+  
+  div.pics img { width: 200px; }
+
     /* Content */
 
         #content { display: flex; align-items: flex-start; margin: 2em auto; max-width: 1279px; width: 90%; }
