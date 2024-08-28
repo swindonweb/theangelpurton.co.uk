@@ -130,7 +130,22 @@
   footer p a { color: inherit; }
     
     
-    
+/* Classes */
+
+    .bt { border-top: 9px solid #00593D; }
+    .bb { border-bottom: 9px solid #00593D; }
+    .mt2 { margin-top: 2em; }
+
+    .button
+    {
+        border: 1px solid #FF5733;
+        color: inherit;
+        display: inline-block;
+        margin: 0.5em;
+        padding: 0.5em;
+        text-decoration: none;
+        text-transform: uppercase; 
+    }    
     
     
     
